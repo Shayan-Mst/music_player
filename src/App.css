@@ -609,3 +609,304 @@ background-color: #c0c0c0;
 }
 
 }
+
+@media screen and (min-width:700px) and (max-width:1200px){
+  .music-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #16151a;
+   
+    padding-block: 10px;
+    height: 100px;
+    display: grid;
+  }
+  .progress-bar {
+ 
+    height: 6px;
+    
+    width: 70%;
+  
+  }
+
+  .info-control{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .music-info{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    
+  }
+  .music-info span{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 18px;
+    color: #c0c0c0;
+  }
+  
+  .music-info span:last-child{
+    font-size: 14px;
+  }
+  
+  .music-info img{
+    width: 50px;
+    height: 50px;
+    margin-inline: 20px;
+    border-radius: 4px;
+  }
+  .controls {
+    display:flex;
+    justify-content:center;
+    height: 100%;
+    align-self: center;
+    align-items: center;
+   
+   
+  }
+  
+  .controls button {
+    
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .controls button:nth-child(3),.controls button:nth-child(4){
+    background-color: #7079d3;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+  
+    
+  }
+  
+  .controls button:nth-child(3) i,.controls button:nth-child(4) i{
+    background-color: transparent;
+  }
+  
+  .controls button i{
+  
+   font-size: 24px;
+   color: #c0c0c0;
+   background-color: #16151a;
+   transition: 0.3s ease;
+  }
+  .controls button:not(:nth-child(3),:nth-child(4)) i:hover{
+    color: #7079d3;
+  }
+  .tooltiptext{
+  
+    font-size: 8px;
+  }
+  
+  .pause-button{
+    display:none !important;
+  }
+  .resume-button{
+    display: none !important;
+  }
+  
+  .player-volume{
+    display: flex;
+    justify-content:flex-end;
+   
+    
+  }
+  
+  .player-volume i{
+    display: flex;
+    align-items: center;
+    padding-inline: 15px;
+    width: 20px;
+  }
+  
+  .player-volume input[type="range"] {
+    width: 120px;
+    background-color: inherit;
+  }
+  
+  .player-volume input[type="range"]::-moz-range-track{
+  
+  background-color: #c0c0c0;
+  }
+  
+  .player-volume input[type="range"]::-moz-range-thumb {
+    /* Customize thumb appearance for Firefox */
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .player-volume input[type="range"]::-moz-range-progress {
+  
+    background-color:#7079d3;
+  }
+  
+  .vol-hide{
+    display: none !important;
+  }
+  
+  #audio-player{
+    display: none;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .music-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #16151a;
+   
+    padding-block: 10px;
+    height: 100px;
+    display: grid;
+  }
+  .progress-bar {
+ 
+    height: 6px;
+    
+    width: 70%;
+  
+  }
+
+  .info-control{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .music-info{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    
+  }
+  .music-info span{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 14px;
+    color: #c0c0c0;
+
+  }
+  
+  .music-info span:last-child{
+    font-size: 11px;
+  }
+  
+  .music-info img{
+    width: 25px;
+    height: 25px;
+    margin-inline: 20px;
+    border-radius: 4px;
+  }
+  .controls {
+    display:flex;
+    justify-content:center;
+    height: 100%;
+    align-self: center;
+    align-items: center;
+   
+   
+  }
+  
+  .controls button {
+    
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .controls button:nth-child(3),.controls button:nth-child(4){
+    background-color: #7079d3;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+  
+    
+  }
+  
+  .controls button:nth-child(3) i,.controls button:nth-child(4) i{
+    background-color: transparent;
+  }
+  
+  .controls button i{
+  
+   font-size: 18px;
+   color: #c0c0c0;
+   background-color: #16151a;
+   transition: 0.3s ease;
+  }
+  .controls button:not(:nth-child(3),:nth-child(4)) i:hover{
+    color: #7079d3;
+  }
+  .tooltiptext{
+  
+    font-size: 8px;
+  }
+  
+  .pause-button{
+    display:none !important;
+  }
+  .resume-button{
+    display: none !important;
+  }
+  
+  .player-volume{
+    display: flex;
+    justify-content:flex-end;
+   
+    
+  }
+  
+  .player-volume i{
+    display: flex;
+    align-items: center;
+    padding-inline: 15px;
+    width: 18px;
+  }
+  
+  .player-volume input[type="range"] {
+    width: 120px;
+    background-color: inherit;
+  }
+  
+  .player-volume input[type="range"]::-moz-range-track{
+  
+  background-color: #c0c0c0;
+  }
+  
+  .player-volume input[type="range"]::-moz-range-thumb {
+    /* Customize thumb appearance for Firefox */
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .player-volume input[type="range"]::-moz-range-progress {
+  
+    background-color:#7079d3;
+  }
+  
+  .vol-hide{
+    display: none !important;
+  }
+  
+  #audio-player{
+    display: none;
+  }
+}
