@@ -820,15 +820,7 @@ background-color: #c0c0c0;
    
    
   }
-  .controls {
-    display:flex;
-    justify-content:center;
-    height: 100%;
-    align-self: center;
-    align-items: center;
-   
-   
-  }
+ 
   
   .controls button {
     
