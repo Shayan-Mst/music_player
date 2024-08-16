@@ -92,7 +92,6 @@ const NavPlayer = () => {
 //progress bar
   return (
     <>
-   
     <div className="music-player">
      
         <div className='progress-container'>
