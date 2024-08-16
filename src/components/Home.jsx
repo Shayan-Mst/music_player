@@ -10,8 +10,10 @@ const Home = () => {
     <>
     <Header/>
     <Sidebar/>
+    
     <Body/>
     <NavPlayer/>
+
    
     </>
   )
