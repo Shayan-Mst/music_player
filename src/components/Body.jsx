@@ -936,8 +936,6 @@ const Body = () => {
             </div>
         </section>
         
-
-        
         <section class="row row--grid">
            
             <div class="col-12">
@@ -1176,9 +1174,7 @@ const Body = () => {
             </div>
            
         </section>
-       
-
-       
+              
         <div class="row">
             <div class="col-12">
                 <div class="partners owl-carousel owl-loaded">
